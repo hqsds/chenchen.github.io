@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chenchen's Projects</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>Welcome! Here are Chenchen Zhou's projects</h1>
+        
+        <h2>Navigation</h2>
+        <p>
+            The following are research projects and some selected course projects I did during my Ph.D study. Some of them may be very elementary. You are very welcomed to share your ideas or comments to those projects!
+        </p>
+        <p>
+        <a href="#one" title="research">Research</a></p>
+         <p>   <a href="#two" title="numerical techniques">Numerical Techniques</a></p>
+        <p>   <a href="#three" title="statistics">Statistics</a></p>
+         <p>   <a href="#four" title="programming">Programming</a>
+        </p>
+        
+        
+        
+
+<!--        <ul>-->
+<!--
+            <li><a href="research.html">Research</a></li>
+            <li><a href="numerical.html">Numerical</a></li>
+            <li><a href="statistics.html">Computational Statistics</a></li>
+            <li><a href="programming.html">Programming Skills</a></li>
+-->
+<!--
+            <li><a href="https://github.com/adobe/brackets/wiki">Brackets Wiki</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/brackets-dev">Brackets Developer Mailing List</a></li>
+            <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
+            <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
+-->
+<!--        </ul>-->
+
+        
+        <h1 id="one">Research Projects</h1>
+        <h2>Brief Introduction of My research</h2>
+        
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
+        
+        <p>
+            My research topic is about proposing a credit risk model for correlated defaults. More specifically, we aim to derive an analytical price formula of a basket CDS(credit default swap). Portfolio credit derivatives are important for managing default risk. My work is based on the new hybrid model which was proposed by my major professor Dr.Kercheval and his former student Pierre Garreau. For more information, you could refer to the published <a href="http://epubs.siam.org/doi/10.1137/140993892" title="visit akpg paper" target="_blank">paper</a> on SIAM.   
+        </p> 
+        <p>
+            The motivation of this new model is to resolve the computation difficulty in credit derivative when the number of underlying assets becomes large. Apart from its tractability, from model perspective, the value of this model is that it also gives out the economic explanation of the hazard rate which is usually set to be an exogenous function in traditional reduced form model. 
+         </p>
+         <p>
+            My work is focused on generalizing the result to N(N>=3) dimensional case. I also extend the results to include the stochastic interest rates and incorporate external market factors such as stochastic interest rate like a factor model did. 
+            
+            
+        </p>
+        
+        <!--
+            WHAT IS BRACKETS?
+        -->
+<!--
+        <p>
+            <em>Brackets is a different type of editor.</em>
+            Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
+            editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
+            have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
+            Brackets. To learn more about how to use the key features, read on.
+        </p>
+-->
+        
+        <!--
+            GET STARTED WITH YOUR OWN FILES
+        -->
+        
+        
+        
+        <h3>Quick View of Our Model</h3>
+        <p>
+            <a href="ChenchenPoster2016.pdf" title="Quick look at our model"> Poster</a>
+        </p>
+        
+        
+        
+        
+        
+        
+        <h2>Projects associated with My Research</h2>
+        <h3>My Candidancy Exam Project</h3>
+        <p>
+            I discussed two kinds of structural models. One is based on<a href="cds.pdf" title="ate paper"> paper "Pricing CDS under Levy Model"</a>. This paper uses the traditional structural model, in which the time of default is given by the first passage time of the stochastic process below a predetermined barrier. The second model used is the center of my research as described above, specifies the default time to be the time of the first jump of log-return of a firm's stock price. Under both of them, the underlying asset is described by an exponential variance gamma process. 
+        </p>
+        <p>
+            Under first model, two numerical methods are considered. Both of them are trying to transform the problem to computing a binary down-and-in barrier option. First is the Monte Carlo method. The second numerical method is trying to solve a PIDE (partial integral differential equation) by finite difference method.
+        </p>
+        <p>
+            This project can be viewed as the motivation of our new hybrid model. More details are  <a href="mythesis.pdf" title="Quick look at our model"> here</a>!
+        </p>
+            
+        <p><a href="#top" tile="back to the top">Back to top</a>  </p>
+    
+        
+        
+        
+        
+        <h1 id="two">Numerical Techniques</h1>
+        <h2>Solving Linear System</h2>
+        <h3>Project 1</h3>
+        <p>Solve a particular family of linear systems (n × n tridiagonal Toeplitz matrix)via the Jacobi, Gauss Seidel, and Symmetric Gauss Seidel methods.
+        <a href="fall_hw3/NewFolder1/Chenchen_Zhou_homework3.pdf"> Report</a>!
+        </p>
+        <h3>Project 2</h3>
+        <p>
+        Solve least square problem.
+            <a href="fall_hw2/Foundations%20of%20Computational%20Math.pdf"> Report</a>!
+        </p>
+        
+        <h3>Project 3</h3>
+        <p>
+        Solve linear system via LU decomposition.
+            <a href="fall_hw1/Chenchen%20Zhou.pdf"> Report</a>!
+        </p>
+        
+        <h2>Interpolation</h2>
+        <h3>Project 4</h3>
+        <p>Function Interpolation
+            <a href="spring_hw1/Foundations%20of%20Computational%20Math%202.pdf"> Report</a>!
+        </p>
+        
+        
+        <h3>Project 5</h3>
+        <p>
+        Implement two interpolating spline algorithms. 
+            <a href="spring_hw2/Foundations%20of%20Computational%20Math%2022.pdf"> Report</a>!
+        </p>
+        <h2>Integration Strategy</h2>
+        <h3>Project 6</h3>
+        <p>
+            Implement two kinds of adaptive Newton-Cotes integration strategies.
+            <a href="spring_hw3/Foundations%20of%20Computational%20Math%202.pdf"> Report</a>!
+        </p>
+        
+        <p><a href="#top" tile="back to the top">Back to top</a>  </p>
+        
+        
+        
+        
+        <h1 id="three">Statistics</h1>
+        <h2>Computational Statistics</h2>
+        <h3>Project 1</h3>
+        <p>Face Recognition. 
+        <a href="face.pdf"> Report</a>!
+        </p>
+        <h3>Project 2</h3>
+        <p>
+        Neural Decoding.
+            <a href="neu.pdf"> Report</a>!
+        </p>
+        <h2>Logistic Regression</h2>
+        <p>Develop a model that uses logistic regression to predict the development of CHD (chd10yr).
+            <a href="logistic.pdf"> Report</a>!
+        </p>
+        
+        <p><a href="#top" tile="back to the top">Back to top</a>  </p>
+        
+        
+        
+        <h1 id="four">Programming</h1>
+        
+        <h3>Implement some classes</h3>
+        <p>Write a class called Diamond to create diamond shape with fucntions of handling it. 
+            <a href="project1/diamond.cpp">Code</a> <a href="project1/diamond.h"> Code</a>
+            </p>
+        
+       <p>Write a class called Date to store valid dates of the year. 
+        
+        
+            <a href="project2/date.cpp">Code </a><a href="project2/date.h"> Code </a><a href="project2/main.cpp"> Code </a>
+                </p>
+             <p>
+         Write a class called Mixed to define data type "fraction" along with operation overloading.
+            <a href="project3/mixed.cpp">Code </a><a href="project3/mixed.h"> Code </a>
+                </p>        
+                
+<!--
+        <p>        
+        Write classes that implement a simulation of a playlist for a digital music device. 
+            
+            <a href="project3/mixed.cpp">Code </a><a href="project3/mixed.h"> Code </a><a href="project3/main.cpp"> Code </a>
+                
+                </p>
+-->
+                <p>
+        
+        Write classes that implement a simulation of books sales at a store.             
+            <a href="project4/book.cpp">Code </a><a href="project4/book.h"> Code </a><a href="project4/menu.cpp"> Code </a> <a href="project4/store.cpp">Code </a> <a href="project4/store.h">Code </a> <a href="project4/testbook.cpp">Code</a>
+                </p>
+                
+        <p>        
+        
+        Write a class called MyInt to allow storage and computation of any non-negative integer without an upper limit along with the required operator overloads    
+            <a href="project5/myint.cpp">Code </a> <a href="project5/myint.h"> Code</a>
+                </p>    
+        <p>
+        Write a class for storing student information, computing final grades, printing a summary report to an output file based on derived classes, virtual function and application of polymorphism. 
+        <a href="project6/student.cpp">Code </a> <a href="project6/student.h">  Code</a>
+        <a href="project6/main.cpp">  Code</a>
+                </p> 
+        <p><a href="#top" tile="back to the top">Back to top</a>  </p>
+        
+        
+        <h2>Algorithm</h2>
+        
+        Implemented algorithms for different data structure. Ex, searching(binary search, binary search tree,Depth first search, Bread first search, etc), sorting(merge sort, quick sort,etc), traversing, shortest path in graph(Dijkstra's algorithm,etc), dynamic programming. 
+        
+        My leetcode account: 5894
+        
+        
+        
+        
+        
+     
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
